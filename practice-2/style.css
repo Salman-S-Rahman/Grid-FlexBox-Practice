@@ -1,0 +1,23 @@
+.login_container {
+    display: flex;
+    justify-content: center;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login_form input,
+button {
+    margin-top: 10px;
+    padding: 5px 0 5px 5px;
+    font-size: 1.3em;
+}
+
+.login_form button {
+    background: orange;
+    border: 0;
+    padding: 3px 0;
+    cursor: pointer;
+}
